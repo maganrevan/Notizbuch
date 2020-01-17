@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D78D54D23CE5771009555C5 /* Notizen+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78D54B23CE5771009555C5 /* Notizen+CoreDataClass.swift */; };
+		5D78D54E23CE5771009555C5 /* Notizen+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D78D54C23CE5771009555C5 /* Notizen+CoreDataProperties.swift */; };
+		5D78D54F23CE58D1009555C5 /* Notizbuch.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1B23CBBA7F0080AF5D /* Notizbuch.xcdatamodeld */; };
 		5DC5CF1323CBBA7F0080AF5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1223CBBA7F0080AF5D /* AppDelegate.swift */; };
 		5DC5CF1523CBBA7F0080AF5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1423CBBA7F0080AF5D /* SceneDelegate.swift */; };
 		5DC5CF1723CBBA7F0080AF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1623CBBA7F0080AF5D /* ViewController.swift */; };
 		5DC5CF1A23CBBA7F0080AF5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1823CBBA7F0080AF5D /* Main.storyboard */; };
-		5DC5CF1D23CBBA7F0080AF5D /* Notizbuch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1B23CBBA7F0080AF5D /* Notizbuch.xcdatamodeld */; };
 		5DC5CF1F23CBBA820080AF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5CF1E23CBBA820080AF5D /* Assets.xcassets */; };
 		5DC5CF2223CBBA820080AF5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC5CF2023CBBA820080AF5D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D78D54B23CE5771009555C5 /* Notizen+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notizen+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5D78D54C23CE5771009555C5 /* Notizen+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notizen+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5DC5CF0F23CBBA7F0080AF5D /* Notizbuch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notizbuch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC5CF1223CBBA7F0080AF5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DC5CF1423CBBA7F0080AF5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		5DC5CF0623CBBA7F0080AF5D = {
 			isa = PBXGroup;
 			children = (
+				5D78D54B23CE5771009555C5 /* Notizen+CoreDataClass.swift */,
+				5D78D54C23CE5771009555C5 /* Notizen+CoreDataProperties.swift */,
 				5DC5CF1123CBBA7F0080AF5D /* Notizbuch */,
 				5DC5CF1023CBBA7F0080AF5D /* Products */,
 			);
@@ -128,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D78D54F23CE58D1009555C5 /* Notizbuch.xcdatamodeld in Resources */,
 				5DC5CF2223CBBA820080AF5D /* LaunchScreen.storyboard in Resources */,
 				5DC5CF1F23CBBA820080AF5D /* Assets.xcassets in Resources */,
 				5DC5CF1A23CBBA7F0080AF5D /* Main.storyboard in Resources */,
@@ -141,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC5CF1D23CBBA7F0080AF5D /* Notizbuch.xcdatamodeld in Sources */,
+				5D78D54E23CE5771009555C5 /* Notizen+CoreDataProperties.swift in Sources */,
+				5D78D54D23CE5771009555C5 /* Notizen+CoreDataClass.swift in Sources */,
 				5DC5CF1723CBBA7F0080AF5D /* ViewController.swift in Sources */,
 				5DC5CF1323CBBA7F0080AF5D /* AppDelegate.swift in Sources */,
 				5DC5CF1523CBBA7F0080AF5D /* SceneDelegate.swift in Sources */,
